@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/maintest.css">
+    <title>Dashboard Ideas</title>
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <h1><img src="img/logo_ideas.png" alt="logo" width="240px" height="60px"></h1>
+            <nav>
+                <ul>
+                    <li><a href="inicio_ideas.html">Inicio</a></li>
+                    <li><a href="ideas2.html">Dashboards</a></li>
+                    <li><a href="relatorio.html">Relatórios</a></li>
+                    <li><a href="inicio_ideas.html">Sair</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="relat">
+        <form action="">
+            <fieldset class="field">
+                <legend>Setor</legend>
+                <select name="" id="">
+                    <option value="">Pronto Socorro Maternidade</option>
+                    <option value="">Pronto Socorro Infantil</option>
+                </select>
+            </fieldset>
+            <div class="data"> 
+                <label for="">Data de Entrada</label><br>
+                <input type="date" name="data_entrada" min="2014-01-01">
+            </div>
+            <div class="data">
+                <label for="">Data de Saída</label><br>
+                <input type="date" name="data_entrada" min="2014-01-01">
+            </div>
+                <fieldset class="checkbox">
+                    <legend>Formato de impressão do relatório</legend>
+                    <label for="radio-excel"><input checked name="relatorio" type="radio" value="excel" id="radio-excel">Excel</label>
+                    <label for="radio-pdf"><input name="relatorio" type="radio" value="pdf" id="radio-pdf">PDF</label>
+                </fieldset>
+        </form>
+        <form action="" class="form-teste">
+            <fieldset>
+                <legend>Setor</legend>
+                <select name="" id="">
+                    <option value="">Pronto Socorro Maternidade</option>
+                    <option value="">Pronto Socorro Infantil</option>
+                </select>
+            </fieldset>
+            <div> 
+                <label for="">Data de Entrada</label><br>
+                <input type="date" name="data_entrada" min="2014-01-01">
+            </div>
+            <div>
+                <label for="">Data de Saída</label><br>
+                <input type="date" name="data_entrada" min="2014-01-01">
+            </div>
+                <fieldset>
+                    <legend>Formato de impressão do relatório</legend>
+                    <label for="radio-excel"><input checked name="relatorio" type="radio" value="excel" id="radio-excel">Excel</label>
+                    <label for="radio-pdf"><input name="relatorio" type="radio" value="pdf" id="radio-pdf">PDF</label>
+                </fieldset>
+            <input type="submit" value="gerar relatório" id="btn-submit">
+        </form>
+    </main>
+    <footer>
+        <p class="copyr">&copy; Copyright IDEAS - 2021</p>
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: "Century Gotic";
+	line-height: 20px;
+	font-size: 16px;
+	color: #999999;
+}
+
+#topo {
+	background: url("file:///Macintosh%20HD/Users/Shared/OneDrive/Estudos/HTML5%20e%20CC3/Livro/imagens/barra_topo.png");
+	width: 940px;
+	height: 150px;
+	border-bottom: 10px solid #009900;
+	margin: auto;
+}
